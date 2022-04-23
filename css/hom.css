@@ -18,11 +18,21 @@ nav{
 	justify-content: center;
     margin:1% 0% 1% 0%;
 }#logo2{
-    
 	display: flex;
 	justify-content: right;
-    margin:1% 0% 1% 0%;
-    background-color: #25D366;
+    align-items: center;
+    margin:2%;
+    padding: 2%;
+    background-color: #F19001;
+}
+#img2{
+    
+    width: 25%;
+}
+#titulo{
+    color: #ffffff;
+    font-weight: 800;
+    font-size: 150%;
 }
 img{
     width: 10%;
@@ -201,7 +211,7 @@ a{
         width: 100%;
     }
     
-@media (max-width: 480px) {
+@media (max-width: 580px) {
     .card{
         width: 80%;
     }
@@ -269,6 +279,16 @@ a{
         text-align: center;
         width: 90%;
         border: solid;
+    }
+    #titulo{
+        color: #ffffff;
+        font-size: 100%;
+        margin-top: 0;
+        margin-left: 0;
+        width: 100%;
+    }
+    #logo2{
+	justify-content: left;
     }
 }
 }
